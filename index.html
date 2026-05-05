@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>개인정보 처리방침</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        color: #11181c;
+        font-family:
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        background: #ffffff;
+      }
+
+      .modal-overlay {
+        display: flex;
+        min-height: 100vh;
+        align-items: flex-end;
+        background: rgba(17, 24, 28, 0.32);
+      }
+
+      .modal-sheet {
+        display: flex;
+        width: 100%;
+        max-height: 82vh;
+        flex-direction: column;
+        gap: 12px;
+        overflow: hidden;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        padding: 22px 24px 28px;
+        background: #ffffff;
+      }
+
+      .modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      h1 {
+        margin: 0;
+        color: #11181c;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .close-button {
+        flex: 0 0 auto;
+        border: 1px solid #c9d4db;
+        border-radius: 999px;
+        padding: 8px 14px;
+        color: #51606b;
+        font: inherit;
+        font-weight: 600;
+        line-height: normal;
+        background: transparent;
+      }
+
+      .modal-content {
+        display: flex;
+        flex: 1 1 auto;
+        min-height: 0;
+        flex-direction: column;
+        gap: 10px;
+        overflow-y: auto;
+        padding-bottom: 8px;
+      }
+
+      p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      .policy-text {
+        color: #42525c;
+      }
+
+      .policy-section-title {
+        margin-top: 8px;
+        color: #11181c;
+        font-weight: 700;
+      }
+
+      .policy-effective-date {
+        margin-top: 12px;
+        color: #687076;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="modal-overlay" aria-label="개인정보 처리방침 모달">
+      <section class="modal-sheet" role="dialog" aria-modal="true" aria-labelledby="policy-title">
+        <header class="modal-header">
+          <h1 id="policy-title">개인정보 처리방침</h1>
+          <button class="close-button" type="button" aria-label="개인정보 처리방침 닫기">닫기</button>
+        </header>
+
+        <div class="modal-content">
+          <p class="policy-text">
+            본 서비스는 이용자의 개인정보를 중요하게 생각하며, 관련 법령을 준수합니다.
+            서비스는 다음과 같은 목적과 방식으로 최소한의 개인정보를 수집·이용합니다.
+          </p>
+
+          <p class="policy-section-title">1. 수집하는 개인정보 항목</p>
+          <p class="policy-text">- 이메일 주소</p>
+
+          <p class="policy-section-title">2. 개인정보 수집 및 이용 목적</p>
+          <p class="policy-text">
+            - 회원 가입 및 로그인 인증을 위한 본인 식별<br />
+            - 서비스 이용을 위한 계정 관리
+          </p>
+
+          <p class="policy-section-title">3. 개인정보 보관 및 처리</p>
+          <p class="policy-text">
+            - 수집된 이메일 정보는 Supabase를 통해 안전하게 저장 및 관리됩니다.<br />
+            - 서비스 제공 목적 달성 시까지 보관됩니다.
+          </p>
+
+          <p class="policy-section-title">4. 개인정보 보유 및 이용 기간</p>
+          <p class="policy-text">- 회원 탈퇴 시 즉시 해당 개인정보를 지체 없이 삭제합니다.</p>
+
+          <p class="policy-section-title">5. 개인정보 제3자 제공</p>
+          <p class="policy-text">- 서비스는 이용자의 개인정보를 외부에 제공하지 않습니다.</p>
+
+          <p class="policy-section-title">6. 이용자의 권리</p>
+          <p class="policy-text">
+            - 이용자는 언제든지 회원 탈퇴를 통해 자신의 개인정보 삭제를 요청할 수 있습니다.
+          </p>
+
+          <p class="policy-section-title">7. 개인정보 보호를 위한 조치</p>
+          <p class="policy-text">
+            - 서비스는 개인정보 보호를 위해 합리적인 기술적·관리적 보호 조치를 적용합니다.
+          </p>
+
+          <p class="policy-effective-date">시행일자: 2026년 5월 1일</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
